@@ -19,5 +19,6 @@ jobs:
       - name: Enviar para o perfil pessoal
         shell: bash
         run: |
+          git config --local --unset-all http.https://github.com/.extraheader || true
           git push --all "https://x-access-token:${{ secrets.TOKEN_PESSOAL }}@github.com/harllen1996/base-conhecimento-1.git" || exit 1
           git push --tags "https://x-access-token:${{ secrets.TOKEN_PESSOAL }}@github.com/harllen1996/base-conhecimento-1.git" || true
