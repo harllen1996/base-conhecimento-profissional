@@ -1,0 +1,23 @@
+name: Espelho para o perfil pessoal
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  espelho:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositorio completo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Enviar para o perfil pessoal
+        shell: bash
+        run: |
+          git push --all "https://x-access-token:${{ secrets.TOKEN_PESSOAL }}@github.com/harllen1996/base-conhecimento-1.git" || exit 1
+          git push --tags "https://x-access-token:${{ secrets.TOKEN_PESSOAL }}@github.com/harllen1996/base-conhecimento-1.git" || true
