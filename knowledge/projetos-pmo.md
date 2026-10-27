@@ -1,11 +1,11 @@
 # Projetos PMO — Returns & EHA
 
-> Última sincronização com a aba "Summary PMO": 22/10/2026
+> Última sincronização com a aba "Summary PMO": 27/10/2026
 
 ## Visão Geral
-- **Total no portfólio:** 47 projetos
+- **Total no portfólio:** 48 projetos
 - **Em andamento:** 32 (Wip 12 · With Products/Reg 16 · With Expansion 3 · Planning 1)
-- **Concluídos:** 12 · **Cancelados:** 3
+- **Concluídos:** 13 · **Cancelados:** 3
 - **Help Needed = Yes:** 5 (Aéreo Azul LAM, Aéreo Azul LRO, Aéreo Azul Fortaleza, Stage In, Reroute HD → SP)
 - **Planilha fonte:** Google Sheets "PMO Projects RTS/EHA" (aba Summary PMO)
 - **Acompanhamento:** WBR (Weekly Business Review) + e-mail semanal
@@ -17,12 +17,12 @@
 | 2. Planejamento | 6 |
 | 3. Desenvolvimento | 9 |
 | 4. Validação | 17 |
-| 5. Encerramento | 14 |
+| 5. Encerramento | 15 |
 
 ### Distribuição por tipo
 | Tipo | Qtde |
 |---|---|
-| Melhoria | 20 |
+| Melhoria | 21 |
 | Feature | 14 |
 | For vis | 13 |
 
@@ -31,7 +31,7 @@
 |---|---|---|---|---|
 | Rafael Mattos | 18 | 12 | 4 | 2 |
 | Kemily Serrudo | 16 | 11 | 5 | 0 |
-| Harllen Dias Gomes | 13 | 9 | 3 | 1 |
+| Harllen Dias Gomes | 14 | 9 | 4 | 1 |
 
 ## Status utilizados na planilha
 - **Wip** — em andamento, conduzido pelo time de Planning
@@ -129,6 +129,12 @@
 - **ETA:** 30/10/2026
 - **PIC:** Harllen
 
+### Site de Projetos EHA & Returns — ✅ Concluído
+- **O que faz:** site do PMO que reúne o portfólio de projetos EHA e Returns (status, update semanal, links do Drive), integrado à aba Summary PMO e ao ClickUp
+- **Recursos:** Help – Gestão, Bugs e Melhorias (formulário) e assistente de consulta
+- **Status:** publicado e em uso desde 26/10/2026
+- **PIC:** Harllen
+
 ## Lista completa de projetos
 
 ### Em andamento (32)
@@ -168,7 +174,7 @@
 | Fechamento automático de TOs salvados por valor | Feature | 2. Planejamento | Wip | Rafael Mattos | 19/09/2026 | No | — |
 | [DS] Returns (RR e RTS HUB) | For vis | 2. Planejamento | Wip | Rafael Mattos | 29/10/2026 | No | Lead Time |
 
-### Concluídos (12)
+### Concluídos (13)
 
 | Projeto | Tipo | Estágio | Status | PIC | ETA | Help Needed | KPI |
 |---|---|---|---|---|---|---|---|
@@ -184,6 +190,7 @@
 | Double compensation Seller | Melhoria | 5. Encerramento | Done | Kemily Serrudo | 24/06/2026 | — | — |
 | Padronização pesca de BRs em sorters | Melhoria | 5. Encerramento | Done | Rafael Mattos | 21/08/2028 ⚠️ (provável erro de digitação na planilha) | No | — |
 | Etiqueta SP06 > PHX | Melhoria | 5. Encerramento | Done | Kemily Serrudo | 21/08/2026 | No | — |
+| Site de Projetos EHA & Returns | Melhoria | 5. Encerramento | Done | Harllen | 26/10/2026 | No | — |
 
 ### Cancelados (3)
 
@@ -196,4 +203,5 @@
 ## Onde consultar o status atualizado
 - **Planilha PMO:** aba "Summary PMO" (atualizada semanalmente)
 - **ClickUp:** space "PROJETOS - RETURNS" (tasks detalhadas)
+- **Site de Projetos EHA & Returns:** visão consolidada do portfólio, com Help – Gestão, Bugs e Melhorias
 - **E-mail semanal:** enviado toda quinta para ~30 stakeholders
