@@ -1,6 +1,6 @@
 # Projetos PMO — Returns & EHA
 
-> Última sincronização com a aba "Summary PMO": 27/10/2026
+> Última sincronização com a aba "Summary PMO": 29/10/2026
 
 ## Visão Geral
 - **Total no portfólio:** 48 projetos
@@ -16,8 +16,8 @@
 | 1. Iniciação | 1 |
 | 2. Planejamento | 6 |
 | 3. Desenvolvimento | 9 |
-| 4. Validação | 17 |
-| 5. Encerramento | 15 |
+| 4. Validação | 16 |
+| 5. Encerramento | 16 |
 
 ### Distribuição por tipo
 | Tipo | Qtde |
@@ -154,7 +154,7 @@
 | Handover from 3pl RTS trigger | Melhoria | 4. Validação | With Products/Reg | Kemily Serrudo | 24/08/2026 | No | — |
 | Migração RTS LMH para FMH | For vis | 4. Validação | Wip | Kemily Serrudo | 21/08/2026 | No | — |
 | Proof on Hold - Automatization | For vis | 4. Validação | With Products/Reg | Kemily Serrudo | 24/08/2026 | No | — |
-| Bulky Logs Pilot (Reversa TVs) | For vis | 4. Validação | Wip | Rafael Mattos | 23/10/2026 | No | Ticket Médio |
+| Bulky Logs Pilot (Reversa TVs) | For vis | 5. Encerramento | Wip | Rafael Mattos | 23/10/2026 | No | Ticket Médio |
 | FTE 100% em EHA | For vis | 4. Validação | Wip | Rafael Mattos | 30/12/2026 | No | Produtividade EHA |
 | Goleiros com HC EHA | Melhoria | 4. Validação | Wip | Rafael Mattos | 21/08/2026 | No | — |
 | RR Pickup | For vis | 4. Validação | Wip | Rafael Mattos | 03/08/2026 | No | — |
