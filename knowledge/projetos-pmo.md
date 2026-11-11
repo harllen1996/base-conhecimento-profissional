@@ -1,11 +1,11 @@
 # Projetos PMO — Returns & EHA
 
-> Última sincronização com a aba "Summary PMO": 31/10/2026
+> Última sincronização com a aba "Summary PMO": 11/11/2026
 
 ## Visão Geral
 - **Total no portfólio:** 49 projetos
-- **Em andamento:** 34 (Wip 14 · With Products/Reg 16 · With Expansion 3 · Planning 1)
-- **Concluídos:** 12 · **Cancelados:** 3
+- **Em andamento:** 33 (Wip 12 · With Products/Reg 16 · With Expansion 3 · Planning 2)
+- **Concluídos:** 12 · **Cancelados:** 4
 - **Help Needed = Yes:** 5 (Aéreo Azul LAM, Aéreo Azul LRO, Aéreo Azul Fortaleza, Stage In, Reroute HD → SP)
 - **Planilha fonte:** Google Sheets "PMO Projects RTS/EHA" (aba Summary PMO)
 - **Acompanhamento:** WBR (Weekly Business Review) + e-mail semanal
@@ -30,7 +30,7 @@
 | PIC | Total | Em andamento | Concluídos | Cancelados |
 |---|---|---|---|---|
 | Rafael Mattos | 19 | 13 | 4 | 2 |
-| Kemily Serrudo | 16 | 11 | 5 | 0 |
+| Kemily Serrudo | 16 | 10 | 5 | 1 |
 | Harllen Dias Gomes | 14 | 10 | 3 | 1 |
 
 ## Status utilizados na planilha
@@ -62,33 +62,32 @@
 - **O que faz:** Medição automática de dimensões via laser (myCUBI)
 - **Resultado:** 103 pph (5x mais que manual com trena)
 - **Status:** Wave 1 de integração automática (11 SOCs) solicitada à Seller Ops em 19/10; SP24 pré-integrado aguardando ok
-- **SOCs da Wave 1:** SP5, SP24, SP25, BA2, ES2, SC1, PE2, PE4, PR1, MG2, RS2
-- **Pendências:** falha de rede em SP06; cubadores pendentes por rede/retorno em SP18, SP07, SP08, SP06 e SP35; entrega das mesas reguláveis (altura 80 cm definida pelo HSE) — confirmar quantidade final do lote
+- **SOC da Wave 1:** SP5, SP24, SP25, BA2, ES2, SC1, PE2, PE4, PR1, MG2, RS2
 - **PIC:** Harllen
 
 ### Intercept to Measurement of SKUs — 4. Validação · With Products/Reg
 - **O que faz:** Intercepta pacotes com divergência entre dimensão declarada e real
-- **Status:** Teste iniciado em SP24 em 20/10 (cap inicial de 10 BRs); bugs registrados em MyCubi, CAP, critérios de confiança e interceptação após packing — investigar causa, corrigir e retestar (sem ETA confirmado)
-- **Desdobramento:** "Ajuste de dimensão de pacotes" (Rafael Mattos, 2. Planejamento) — discovery com Listings e Seller Ops
+- **Status:** Teste iniciado em SP24 em 20/10 (cap inicial de 10 BRs); bugs registrados em MyCubi, CAP, critérios de confiança e interceptação após packing
+- **Desdobramento:** "Ajuste de dimensão de pacotes" (Rafael Mattos, 2. Planejamento)
 - **PIC:** Harllen
 
 ### Impressoras Portáteis — 3. Desenvolvimento · With Products/Reg
 - **O que faz:** Substitui PCs fixos por PDA + Zebra portátil para impressão
-- **Cenário atual:** Turtle + computador → Zebra via Wi-Fi; limitante é o PDA (sem funções de impressão)
+- **Cenário atual:** Turtle + computador → Zebra via Wi-Fi; limitante é o PDA
 - **Cenário futuro:** foco do uso do equipamento em Super Bulky
-- **Dependências:** Turtle Mobile (sistema web de fila), funcionalidades no SPX App, validação de etiquetas HUB com fornecedor
-- **Ganhos:** qualitativo (mobilidade, menos erro, economia de ribbon)
+- **Dependências:** Turtle Mobile, funcionalidades no SPX App, etiquetas HUB com fornecedor
 - **PIC:** Harllen
 
-### Aéreo Azul (Manaus / Porto Velho / Fortaleza) — With Expansion · Help Needed
+### Aéreo Azul (Manaus / Rondônia / Fortaleza) — With Expansion
 - **O que faz:** Modal aéreo para rotas longas de Returns
-- **Manaus (LAM):** 5. Encerramento · PIC Rafael Mattos · ETA 30/10 — sem retorno do PMO Aéreo sobre blockers sistêmicos para produtos fora do perfil
-- **Rondônia (LRO):** 4. Validação · PIC Kemily Serrudo · ETA atualizado 30/10 — pendente estudo de processamento nos SOCs e push com Listings
-- **Fortaleza (LCE):** 3. Desenvolvimento · PIC Rafael Mattos — início adiado para 17/dez, com impacto nas demais malhas
+- **Manaus (LAM):** 5. Encerramento · ETA 30/10 — sem retorno do PMO Aéreo sobre blockers sistêmicos
+- **Rondônia (LRO):** 4. Validação · ETA atualizado 30/10 — pendente estudo de processamento nos SOCs e push com Listings
+- **Fortaleza (LCE):** 3. Desenvolvimento — início adiado para 17/dez
+- **PICs:** Rafael (LAM, LCE), Kemily (LRO)
 
 ### Goleiros com HC EHA — 4. Validação · Wip
 - **O que faz:** Substituição de goleiros por HC EHA, mini nurse e bipagem de pacotes na gaiola
-- **Resultado:** -86% erro operacional (MG2 e SC1), +18%/6% de produtividade no goleiro EHA (BA02 vs operação)
+- **Resultado:** -86% erro operacional (MG2 e SC1), +18%/6% produtividade no gaiola EHA
 - **Próximos passos:** cronograma enviado; implementação em 2 waves
 - **PIC:** Rafael Mattos
 
@@ -99,24 +98,23 @@
 
 ### OTP to Seller — 3. Desenvolvimento · With Products/Reg
 - **O que faz:** Código OTP para confirmação de entrega RTS ao seller
-- **Status:** Phase 2 sem validação final; falhas de solicitação/reconhecimento do OTP em investigação; múltiplos Shop IDs sem consenso
-- **Próximo marco:** rollout Forward previsto para 26/10 com 100 sellers, condicionado à estabilidade
+- **Status:** teste em escala no hub Santo André 133 confirmado para 04/11; rollout completo não confirmado
 - **PIC:** Harllen
 
 ### Stage In — 4. Validação · Wip · Help Needed
 - **O que faz:** Planejamento de capacidade EHA / gestão de ocupação de docas com 4 zonas
-- **Status:** Wave 2 pendente em SP06, SP08 e RJ04; Wave 3 com início cobrado para 26/10; atenção em SP07, RJ06, SP18, SP25 e SP35
+- **Status:** Wave 2 pendente em SP06, SP08 e RJ04; Wave 3 com início cobrado para 26/10
 - **ETA:** 06/11/2026
 - **PIC:** Rafael Mattos
 
 ### 3PL XD for RTS — 3. Desenvolvimento · With Products/Reg
 - **O que faz:** Cross-dock via parceiro 3PL para Returns (SPX > 3PL > Correios)
 - **Valor estimado:** R$ 122 mil
-- **Status:** pendente validação do mapping de status de RTS via 3PL; em aberto CT-e, NF, declaração de conteúdo e adesão contratual dos parceiros
+- **Status:** pendente validação do mapping de status de RTS via 3PL; em aberto CT-e, NF, declaração de conteúdo e adesão contratual
 - **PIC:** Kemily Serrudo
 
 ### [DS] Returns (RR e RTS HUB) — 2. Planejamento · Wip
-- **O que faz:** LMH exclusivo para Returns entre os HUBs de Vila Guilherme e Lapa (separação de fluxos FWD e Returns)
+- **O que faz:** LMH exclusivo para Returns entre os HUBs de Vila Guilherme e Lapa
 - **Status:** configuração de malha de 25 a 28/10; alinhar volume de impacto em SP2, SP6, SP8 e SP25
 - **ETA:** 29/10/2026
 - **PIC:** Rafael Mattos
@@ -124,15 +122,14 @@
 ### Reroute HD → SP — 4. Validação · Wip · Help Needed
 - **O que faz:** Após 3 tentativas de entrega sem sucesso, redireciona para retirada em PUDO/SVP, evitando RTS
 - **Piloto:** Carandiru e Vila Guilherme
-- **Taxa de retirada:** 64% (amostra 28/09–04/10: 16/25; resumo anterior citava 46% — divergência em verificação)
-- **KPIs propostos (sem metas aprovadas):** taxa de retirada por coorte madura, RTS evitado, aging no SVP e benefício líquido; benefícios financeiros são potenciais, não realizados
+- **Taxa de retirada:** 64% (amostra 28/09–04/10: 16/25)
 - **ETA:** 30/10/2026
 - **PIC:** Harllen
 
 ### Site de Projetos EHA & Returns — 5. Encerramento · Wip
 - **O que faz:** site do PMO que reúne o portfólio de projetos EHA e Returns (status, update semanal, links do Drive), integrado à aba Summary PMO e ao ClickUp
 - **Recursos:** Help – Gestão, Bugs e Melhorias (formulário) e assistente de consulta
-- **Status:** publicado e em uso desde 26/10/2026; reaberto em Wip para ajustes recentes
+- **Status:** publicado e em uso desde 26/10/2026
 - **PIC:** Harllen
 
 ### Liquidation Improvements — 2. Planejamento · Wip
@@ -142,7 +139,7 @@
 
 ## Lista completa de projetos
 
-### Em andamento (34)
+### Em andamento (33)
 
 | Projeto | Tipo | Estágio | Status | PIC | ETA | Help Needed | KPI |
 |---|---|---|---|---|---|---|---|
@@ -173,11 +170,10 @@
 | 3PL XD for RTS orders | Melhoria | 3. Desenvolvimento | With Products/Reg | Kemily Serrudo | 11/09/2026 | No | Lead Time |
 | Aéreo Azul - Fortaleza | Melhoria | 3. Desenvolvimento | With Expansion | Rafael Mattos | 20/10/2026 | Yes | — |
 | BRD - Digitalisation EHA Staging & Handover Process | Feature | 3. Desenvolvimento | With Products/Reg | Rafael Mattos | 11/11/2026 | No | Loss |
-| Block the fulfillment order account in the liquidation flow | Feature | 2. Planejamento | With Products/Reg | Kemily Serrudo | 30/09/2026 | No | Salvados |
+| Block the fullfillment order account in the liquidation flow | Feature | 2. Planejamento | With Products/Reg | Kemily Serrudo | 30/09/2026 | No | Salvados |
 | Improvements 3PLs | Melhoria | 2. Planejamento | Wip | Kemily Serrudo | 16/10/2026 | No | Padronização |
-| Pacotes insucesso RR > Liquidating | For vis | 2. Planejamento | With Products/Reg | Kemily Serrudo | 03/08/2026 | No | — |
 | Ajuste de dimensão de pacotes | Melhoria | 2. Planejamento | Planning | Rafael Mattos | 30/10/2026 | No | — |
-| Fechamento automático de TOs salvados por valor | Feature | 2. Planejamento | Wip | Rafael Mattos | 19/09/2026 | No | — |
+| Fechamento automático de TOs salvados por $ | Feature | 2. Planejamento | Wip | Rafael Mattos | 19/09/2026 | No | — |
 | [DS] Returns (RR e RTS HUB) | For vis | 2. Planejamento | Wip | Rafael Mattos | 29/10/2026 | No | Lead Time |
 | Liquidation Improvements | Melhoria | 2. Planejamento | Wip | Kemily Serrudo | — | — | — |
 
@@ -198,13 +194,14 @@
 | Padronização pesca de BRs em sorters | Melhoria | 5. Encerramento | Done | Rafael Mattos | 21/08/2028 ⚠️ (provável erro de digitação na planilha) | No | — |
 | Etiqueta SP06 > PHX | Melhoria | 5. Encerramento | Done | Kemily Serrudo | 21/08/2026 | No | — |
 
-### Cancelados (3)
+### Cancelados (4)
 
 | Projeto | Tipo | Estágio | Status | PIC | ETA | Help Needed | KPI |
 |---|---|---|---|---|---|---|---|
 | Order flow priority revert | Feature | 3. Desenvolvimento | Cancelled | Harllen | 30/09/2026 | No | Salvados |
 | Smart RTS >> FWD | Feature | 1. Iniciação | Cancelled | Rafael Mattos | 22/04/2026 | No | CPO |
 | BRD - Monitor Exception Order Update | Feature | 3. Desenvolvimento | Cancelled | Rafael Mattos | 07/05/2026 | No | Lead Time |
+| Pacotes insucesso RR > Liquidating | For vis | 2. Planejamento | Cancelled | Kemily Serrudo | 03/08/2026 | No | — |
 
 ## Onde consultar o status atualizado
 - **Planilha PMO:** aba "Summary PMO" (atualizada semanalmente)
