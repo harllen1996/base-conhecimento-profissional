@@ -23,8 +23,8 @@
 | Tipo | Qtd |
 |---|---|
 | Melhoria | 22 |
-| Feature | 16 |
-| For vis | 11 |
+| Feature | 14 |
+| For vis | 13 |
 
 ### Distribuição por PIC
 | PIC | Total | Em andamento | Concluídos | Cancelados |
@@ -67,7 +67,7 @@
 
 ### Intercept to Measurement of SKUs — 4. Validação · With Products/Reg
 - **O que faz:** Intercepta pacotes com divergência entre dimensão declarada e real
-- **Status:** correções de CAP e interceptação implantadas no fim de outubro; teste retoma em 18/11 após campanha; protegção de cancelamento de ER no LMHub como contingência a validar; bugs registrados em MyCubi, CAP, critérios de confiança e interceptação após packing
+- **Status:** correções de CAP e interceptação implantadas no fim de outubro; teste retoma em 18/11 após campanha; proteção de cancelamento de ER no LMHub como contingência a validar; bugs registrados em MyCubi, CAP, critérios de confiança e interceptação após packing
 - **Desdobramento:** projeto complementar "Ajuste de dimensão de pacotes" (Rafael Mattos, 2. Planejamento)
 - **PIC:** Harllen
 
