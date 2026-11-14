@@ -11,7 +11,7 @@
 - **Acompanhamento:** WBR (Weekly Business Review) + e-mail semanal
 
 ### Distribuição por estágio
-| Estágio | Qtde |
+| Estágio | Qtd |
 |---|---|
 | 1. Iniciação | 1 |
 | 2. Planejamento | 7 |
@@ -20,11 +20,11 @@
 | 5. Encerramento | 16 |
 
 ### Distribuição por tipo
-| Tipo | Qtde |
+| Tipo | Qtd |
 |---|---|
 | Melhoria | 22 |
-| Feature | 14 |
-| For vis | 13 |
+| Feature | 16 |
+| For vis | 11 |
 
 ### Distribuição por PIC
 | PIC | Total | Em andamento | Concluídos | Cancelados |
@@ -53,87 +53,87 @@
 ## Projetos principais (destaques)
 
 ### Faded & Non-AWB (IA) — ✅ Concluído
-- **O que faço:** Recupera pacotes com etiqueta apagada ou sem AWB via OCR + SKU matching com IA
+- **O que faz:** Recupera pacotes com etiqueta apagada ou sem AWB via OCR + SKU matching com IA
 - **Resultado:** +75.000 pacotes recuperados, +US$ 1.1M em ganho financeiro
 - **Taxa de recuperação:** 29%
 - **Continuidade:** governança de Faded Local em RJ02; projeto complementar "Órfãos - Complemento Faded" (Rafael Mattos) em validação em RJ02
 - **PIC:** Harllen
 
 ### Cubadores Estáticos — 5. Encerramento · With Products/Reg
-- **O que faço:** Medição automática de dimensões via laser (myCUBI)
+- **O que faz:** Medição automática de dimensões via laser (myCUBI)
 - **Resultado:** 103 pph (5x mais que manual com trena)
-- **Status:** integração concluída em 12 SOCs (SP02, ES02, SC01, RJ04, RJ01, SP08, SP06, SP24, PE02, PE04, MG02, BA02), todos aguardando aprovação de Seller Ops; bloqueio de conectividade com página da incubadora (~30% máquinas processadas); ETA 23/11
+- **Status:** integração concluída em 12 SOCs (SP02, ES02, SC01, RJ04, RJ01, SP08, SP06, SP24, PE02, PE04, MG02, BA02), todos aguardando aprovação de Seller Ops; bloqueio de conectividade com página da incubadora (~30% máquinas processadas); subtarefa com prazo 23/11
 - **PIC:** Harllen
 
 ### Intercept to Measurement of SKUs — 4. Validação · With Products/Reg
-- **O que faço:** Intercepta pacotes com divergência entre dimensão declarada e real
-- **Status:** correções de CAP e interceptação implantadas no fim de outubro; teste retoma em 18/11 após campanha; bugs registrados em MyCubi, CAP, critérios de confiança e interceptação após packing
-- **Desdobramento:** "Ajuste de dimensão de pacotes" (Rafael Mattos, 2. Planejamento)
+- **O que faz:** Intercepta pacotes com divergência entre dimensão declarada e real
+- **Status:** correções de CAP e interceptação implantadas no fim de outubro; teste retoma em 18/11 após campanha; protegção de cancelamento de ER no LMHub como contingência a validar; bugs registrados em MyCubi, CAP, critérios de confiança e interceptação após packing
+- **Desdobramento:** projeto complementar "Ajuste de dimensão de pacotes" (Rafael Mattos, 2. Planejamento)
 - **PIC:** Harllen
 
 ### Impressoras Portáteis — 3. Desenvolvimento · With Products/Reg
-- **O que faço:** Substitui PCs fixos por PDA + Zebra portátil para impressão
+- **O que faz:** Substitui PCs fixos por PDA + Zebra portátil para impressão
 - **Cenário atual:** Turtle + computador → Zebra via Wi-Fi; limitante é o PDA
 - **Cenário futuro:** foco do uso do equipamento em Super Bulky
 - **Dependências:** Turtle Mobile, funcionalidades no SPX App, etiquetas HUB com fornecedor
 - **PIC:** Harllen
 
 ### Aéreo Azul (Manaus / Rondônia / Fortaleza) — With Expansion
-- **O que faço:** Modal aéreo para rotas longas de Returns
+- **O que faz:** Modal aéreo para rotas longas de Returns
 - **Manaus (LAM):** 5. Encerramento · ETA 30/11 — sem retorno do PMO Aéreo sobre blockers sistêmicos para produtos fora do perfil
 - **Rondônia (LRO):** 4. Validação · ETA atualizado 30/11 — pendente estudo de processamento nos SOCs e push com Listings
 - **Fortaleza (LCE):** 3. Desenvolvimento · ETA 12/11 — início adiado para 17/dez; impacto nas demais malhas em discussão
 - **PICs:** Rafael (LAM, LCE), Kemily (LRO)
 
 ### Goleiros com HC EHA — 4. Validação · Wip
-- **O que faço:** Substituição de goleiros por HC EHA, mini nurse e bipagem de pacotes na gaiola
+- **O que faz:** Substituição de goleiros por HC EHA, mini nurse e bipagem de pacotes na gaiola
 - **Resultado:** -86% erro operacional (MG2 e SC1), +18%/6% produtividade no gaiola EHA
 - **Próximos passos:** cronograma enviado; implementação em 2 waves; PR1 e PR4 iniciados em 02/11
 - **PIC:** Rafael Mattos
 
 ### Salvados de Alto Valor — ✅ Concluído
-- **O que faço:** Triagem por valor para recuperação de itens premium
+- **O que faz:** Triagem por valor para recuperação de itens premium
 - **Resultado:** taxa 18% → 60%
 - **PIC:** Kemily Serrudo
 
 ### OTP to Seller — 3. Desenvolvimento · With Products/Reg
-- **O que faço:** Código OTP para confirmação de entrega RTS ao seller
+- **O que faz:** Código OTP para confirmação de entrega RTS ao seller
 - **Status:** fluxo operacional pausado em 06/11 e retomado em 09/11; FM Wave 1 (100 sellers) em 16/11 e Wave 2 (500) em 23/11; LM 20 sellers em 10/11 e expansão para 134 elegíveis em 16/11; Turbo/Instant 100% ativo
 - **PIC:** Harllen
 
 ### Stage In — 4. Validação · Wip
-- **O que faço:** Planejamento de capacidade EHA / gestão de ocupação de docas com 4 zonas
+- **O que faz:** Planejamento de capacidade EHA / gestão de ocupação de docas com 4 zonas
 - **Status:** projeto com 86% de conclusão; SP10, RJ04 e SP05 em stuck/atraso; 5 SOCs em preparação dentro do prazo (20/11): SP07, RJ06, SP18, SP25 e SP35
 - **ETA:** 04/12/2026
 - **PIC:** Rafael Mattos
 
 ### 3PL XD for RTS — 3. Desenvolvimento · With Products/Reg
-- **O que faço:** Cross-dock via parceiro 3PL para Returns (SPX > 3PL > Correios)
+- **O que faz:** Cross-dock via parceiro 3PL para Returns (SPX > 3PL > Correios)
 - **Valor estimado:** R$ 122 mil
 - **Status:** PRD de RTS/RR esperado para revisão em 13/11 e sign-off em 20/11; mapping de Correios pendente de validação com Produto; push com FP&A sobre forecast sem resposta
 - **Help Needed:** Yes (retorno de Produto/FP&A)
 - **PIC:** Kemily Serrudo
 
 ### [DS] Returns (RR e RTS HUB) — ✅ Concluído
-- **O que faço:** LMH exclusivo para Returns entre os HUBs de Vila Guilherme e Lapa
+- **O que faz:** LMH exclusivo para Returns entre os HUBs de Vila Guilherme e Lapa
 - **Status:** finalizado pela frente de projetos; configuração de malha em 28/10 e alinhamento de volume de impacto em SP2, SP6, SP8 e SP25 concluídos
 - **PIC:** Rafael Mattos
 
 ### Reroute HD → SP — 4. Validação · Wip · Help Needed
-- **O que faço:** Após 3 tentativas de entrega sem sucesso, redireciona para retirada em PUDO/SVP, evitando RTS
+- **O que faz:** Após 3 tentativas de entrega sem sucesso, redireciona para retirada em PUDO/SVP, evitando RTS
 - **Piloto:** Carandiru e Vila Guilherme
 - **Taxa de retirada:** 64% (amostra 28/09–04/10: 16/25)
 - **ETA:** 30/10/2026
 - **PIC:** Harllen
 
 ### Site de Projetos EHA & Returns — ✅ Concluído
-- **O que faço:** site do PMO que reúne o portfólio de projetos EHA e Returns (status, update semanal, links do Drive), integrado à aba Summary PMO e ao ClickUp
+- **O que faz:** site do PMO que reúne o portfólio de projetos EHA e Returns (status, update semanal, links do Drive), integrado à aba Summary PMO e ao ClickUp
 - **Recursos:** Help – Gestão, Bugs e Melhorias (formulário) e assistente de consulta
 - **Status:** publicado e em uso desde 26/10/2026; acompanhamento finalizado
 - **PIC:** Harllen
 
 ### Liquidation Improvements — 2. Planejamento · Wip
-- **O que faço:** Melhoria contínua e tratamento de gaps do Liquidation Flow (puxados pela frente de Returns)
+- **O que faz:** Melhoria contínua e tratamento de gaps do Liquidation Flow (puxados pela frente de Returns)
 - **Status:** risco de operadores aplicarem liquidation em pacotes em movimentação reforçado; permissões EHA em discussão; validação com Malha pendente (ETA 12/11)
 - **PIC:** Kemily Serrudo
 
