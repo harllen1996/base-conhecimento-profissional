@@ -24,7 +24,7 @@
 - ETA vencido = ETA < data atual sem conclusão
 
 ## Regras do Dashboard PMO
-- Aba "🚀 Dashboard PMO" na planilha
+- Aba "📊 Dashboard PMO" na planilha
 - Tema escuro com laranja Shopee
 - Fórmulas ligadas à Summary PMO (atualiza automaticamente)
 - Colunas R a W não devem ser editadas manualmente
