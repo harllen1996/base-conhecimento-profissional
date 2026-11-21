@@ -1,6 +1,6 @@
 # Projetos PMO — Returns & EHA
 
-> Última sincronização com a aba "Summary PMO": 20/11/2026
+> Última sincronização com a aba "Summary PMO": 21/11/2026
 
 ## Visão Geral
 - **Total no portfólio:** 49 projetos
@@ -29,9 +29,9 @@
 ### Distribuição por PIC
 | PIC | Total | Em andamento | Concluídos | Cancelados |
 |---|---|---|---|---|
-| Rafael Mattos | 19 | 10 | 7 | 2 |
+| Rafael Mattos | 18 | 10 | 6 | 2 |
 | Kemily Serrudo | 17 | 11 | 5 | 1 |
-| Harllen Dias Gomes | 13 | 9 | 3 | 1 |
+| Harllen Dias Gomes | 14 | 9 | 4 | 1 |
 
 ## Status utilizados na planilha
 - **Wip** — em andamento, conduzido pelo time de Planning
